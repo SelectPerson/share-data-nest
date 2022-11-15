@@ -17,9 +17,6 @@ import { ProfileController } from './api/profile/profile.controller';
       models: [],
       autoLoadModels: true,
     }),
-    ConfigModule.forRoot({
-      envFilePath: '.env',
-    }),
     UsersModule,
     AuthModule,
   ],
